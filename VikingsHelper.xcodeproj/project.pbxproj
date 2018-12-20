@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EF3BFE299FA469551AB045A /* Pods_VikingsHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFDC903E88D72B878103145 /* Pods_VikingsHelper.framework */; };
+		AB025A39216BE9E000B78A61 /* EquipmentsDetailEquipmentCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB025A38216BE9E000B78A61 /* EquipmentsDetailEquipmentCollection.swift */; };
+		AB04E173214D27B300F0C55C /* MonstersListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E172214D27B300F0C55C /* MonstersListHeader.swift */; };
+		AB04E175214D305B00F0C55C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E174214D305B00F0C55C /* Types.swift */; };
+		AB04E177214D437900F0C55C /* EquipmentsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E176214D437900F0C55C /* EquipmentsDetailController.swift */; };
+		AB04E179214D53EA00F0C55C /* EquipmentsDetailMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E178214D53EA00F0C55C /* EquipmentsDetailMaterialCell.swift */; };
+		AB04E17B214D544F00F0C55C /* EquipmentsDetailMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E17A214D544F00F0C55C /* EquipmentsDetailMaterials.swift */; };
+		AB04E17F214DD02D00F0C55C /* EquipmentsDetailMaterialTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E17E214DD02D00F0C55C /* EquipmentsDetailMaterialTableCell.swift */; };
+		AB04E181214DD06700F0C55C /* EquipmentsDetailMaterialTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E180214DD06700F0C55C /* EquipmentsDetailMaterialTable.swift */; };
+		AB04E185214EDBA900F0C55C /* MaterialsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB04E184214EDBA900F0C55C /* MaterialsDetailController.swift */; };
+		AB38FF8021486BD300EABC99 /* MaterialsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38FF7F21486BD300EABC99 /* MaterialsListController.swift */; };
+		AB38FF8221486E5200EABC99 /* MaterialsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38FF8121486E5200EABC99 /* MaterialsListCell.swift */; };
+		AB38FF862148755000EABC99 /* Equipments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB38FF852148755000EABC99 /* Equipments.storyboard */; };
+		AB38FF88214878B800EABC99 /* EquipmentsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38FF87214878B800EABC99 /* EquipmentsListController.swift */; };
+		AB38FF8B2148792E00EABC99 /* EquipmentsListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38FF8A2148792E00EABC99 /* EquipmentsListHeader.swift */; };
+		AB38FF8D21487B9B00EABC99 /* EquipmentsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38FF8C21487B9B00EABC99 /* EquipmentsListCell.swift */; };
+		AB5194B621C9C21F00AD6605 /* EquipmentsDetailParamsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5194B521C9C21F00AD6605 /* EquipmentsDetailParamsCollection.swift */; };
+		AB5194B821C9C31C00AD6605 /* EquipmentsDetailParamsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5194B721C9C31C00AD6605 /* EquipmentsDetailParamsCollectionCell.swift */; };
+		AB5194BA21C9CED900AD6605 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5194B921C9CED900AD6605 /* Extensions.swift */; };
+		AB8122402189F9C4003DAD62 /* EquipmentsDetailParamsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81223F2189F9C4003DAD62 /* EquipmentsDetailParamsTable.swift */; };
+		AB907DAC21458FB900636B27 /* MonstersDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907DAB21458FB900636B27 /* MonstersDetailController.swift */; };
+		AB907DAE2145956200636B27 /* MonstersDetailMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907DAD2145956200636B27 /* MonstersDetailMaterials.swift */; };
+		AB907DB02145961F00636B27 /* MonstersDetailMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907DAF2145961F00636B27 /* MonstersDetailMaterialCell.swift */; };
+		ABDCDF5A21454BA500C0BA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCDF5921454BA500C0BA30 /* AppDelegate.swift */; };
+		ABDCDF5C21454BA500C0BA30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCDF5B21454BA500C0BA30 /* ViewController.swift */; };
+		ABDCDF5F21454BA500C0BA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDF5D21454BA500C0BA30 /* Main.storyboard */; };
+		ABDCDF6121454BA600C0BA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDF6021454BA600C0BA30 /* Assets.xcassets */; };
+		ABDCDF6421454BA600C0BA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDF6221454BA600C0BA30 /* LaunchScreen.storyboard */; };
+		ABE3D49821456A82008EF4D6 /* Monsters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE3D49721456A82008EF4D6 /* Monsters.storyboard */; };
+		ABE3D49C2145741A008EF4D6 /* Materials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE3D49B2145741A008EF4D6 /* Materials.storyboard */; };
+		ABE3D49E21457851008EF4D6 /* MonstersListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE3D49D21457851008EF4D6 /* MonstersListController.swift */; };
+		ABE3D4A2214583F6008EF4D6 /* vikings.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = ABDCDF6C214551D500C0BA30 /* vikings.sqlite3 */; };
+		ABE3D4A5214585A1008EF4D6 /* MonstersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE3D4A4214585A1008EF4D6 /* MonstersListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DFDC903E88D72B878103145 /* Pods_VikingsHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VikingsHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D11082B35372D3F5D7BA4D /* Pods-VikingsHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VikingsHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-VikingsHelper/Pods-VikingsHelper.release.xcconfig"; sourceTree = "<group>"; };
+		8531BBA601FD17628EE6A260 /* Pods-VikingsHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VikingsHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VikingsHelper/Pods-VikingsHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		AB025A38216BE9E000B78A61 /* EquipmentsDetailEquipmentCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailEquipmentCollection.swift; sourceTree = "<group>"; };
+		AB04E172214D27B300F0C55C /* MonstersListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersListHeader.swift; sourceTree = "<group>"; };
+		AB04E174214D305B00F0C55C /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		AB04E176214D437900F0C55C /* EquipmentsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailController.swift; sourceTree = "<group>"; };
+		AB04E178214D53EA00F0C55C /* EquipmentsDetailMaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailMaterialCell.swift; sourceTree = "<group>"; };
+		AB04E17A214D544F00F0C55C /* EquipmentsDetailMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailMaterials.swift; sourceTree = "<group>"; };
+		AB04E17E214DD02D00F0C55C /* EquipmentsDetailMaterialTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailMaterialTableCell.swift; sourceTree = "<group>"; };
+		AB04E180214DD06700F0C55C /* EquipmentsDetailMaterialTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailMaterialTable.swift; sourceTree = "<group>"; };
+		AB04E182214EDA5500F0C55C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		AB04E183214EDA5500F0C55C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AB04E184214EDBA900F0C55C /* MaterialsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsDetailController.swift; sourceTree = "<group>"; };
+		AB38FF7F21486BD300EABC99 /* MaterialsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsListController.swift; sourceTree = "<group>"; };
+		AB38FF8121486E5200EABC99 /* MaterialsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsListCell.swift; sourceTree = "<group>"; };
+		AB38FF852148755000EABC99 /* Equipments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Equipments.storyboard; sourceTree = "<group>"; };
+		AB38FF87214878B800EABC99 /* EquipmentsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsListController.swift; sourceTree = "<group>"; };
+		AB38FF8A2148792E00EABC99 /* EquipmentsListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsListHeader.swift; sourceTree = "<group>"; };
+		AB38FF8C21487B9B00EABC99 /* EquipmentsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsListCell.swift; sourceTree = "<group>"; };
+		AB5194B521C9C21F00AD6605 /* EquipmentsDetailParamsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailParamsCollection.swift; sourceTree = "<group>"; };
+		AB5194B721C9C31C00AD6605 /* EquipmentsDetailParamsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailParamsCollectionCell.swift; sourceTree = "<group>"; };
+		AB5194B921C9CED900AD6605 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AB81223F2189F9C4003DAD62 /* EquipmentsDetailParamsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsDetailParamsTable.swift; sourceTree = "<group>"; };
+		AB907DAB21458FB900636B27 /* MonstersDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersDetailController.swift; sourceTree = "<group>"; };
+		AB907DAD2145956200636B27 /* MonstersDetailMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersDetailMaterials.swift; sourceTree = "<group>"; };
+		AB907DAF2145961F00636B27 /* MonstersDetailMaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersDetailMaterialCell.swift; sourceTree = "<group>"; };
+		ABDCDF5621454BA500C0BA30 /* VikingsHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VikingsHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCDF5921454BA500C0BA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDCDF5B21454BA500C0BA30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDCDF5E21454BA500C0BA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDCDF6021454BA600C0BA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDCDF6321454BA600C0BA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDCDF6521454BA600C0BA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDCDF6C214551D500C0BA30 /* vikings.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vikings.sqlite3; sourceTree = "<group>"; };
+		ABE3D49721456A82008EF4D6 /* Monsters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Monsters.storyboard; sourceTree = "<group>"; };
+		ABE3D49B2145741A008EF4D6 /* Materials.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Materials.storyboard; sourceTree = "<group>"; };
+		ABE3D49D21457851008EF4D6 /* MonstersListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersListController.swift; sourceTree = "<group>"; };
+		ABE3D4A4214585A1008EF4D6 /* MonstersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDCDF5321454BA500C0BA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF3BFE299FA469551AB045A /* Pods_VikingsHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002180DC67CFEE0944AA13E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DFDC903E88D72B878103145 /* Pods_VikingsHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABDCDF4D21454BA500C0BA30 = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF5821454BA500C0BA30 /* VikingsHelper */,
+				ABDCDF5721454BA500C0BA30 /* Products */,
+				F6C4141D826D0FA752946D69 /* Pods */,
+				002180DC67CFEE0944AA13E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDCDF5721454BA500C0BA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF5621454BA500C0BA30 /* VikingsHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDCDF5821454BA500C0BA30 /* VikingsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3D4A32145858F008EF4D6 /* Views */,
+				ABE3D49F21457F7D008EF4D6 /* Models */,
+				ABDCDF6E2145525300C0BA30 /* Assets */,
+				ABDCDF6D2145523500C0BA30 /* Controllers */,
+				ABDCDF6B214551BF00C0BA30 /* Documents */,
+				ABDCDF5921454BA500C0BA30 /* AppDelegate.swift */,
+				ABDCDF6521454BA600C0BA30 /* Info.plist */,
+				AB5194B921C9CED900AD6605 /* Extensions.swift */,
+			);
+			path = VikingsHelper;
+			sourceTree = "<group>";
+		};
+		ABDCDF6B214551BF00C0BA30 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF6C214551D500C0BA30 /* vikings.sqlite3 */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		ABDCDF6D2145523500C0BA30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF5B21454BA500C0BA30 /* ViewController.swift */,
+				ABE3D49D21457851008EF4D6 /* MonstersListController.swift */,
+				AB907DAB21458FB900636B27 /* MonstersDetailController.swift */,
+				AB38FF7F21486BD300EABC99 /* MaterialsListController.swift */,
+				AB04E184214EDBA900F0C55C /* MaterialsDetailController.swift */,
+				AB38FF87214878B800EABC99 /* EquipmentsListController.swift */,
+				AB04E176214D437900F0C55C /* EquipmentsDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABDCDF6E2145525300C0BA30 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF6021454BA600C0BA30 /* Assets.xcassets */,
+				ABDCDF6F2145525C00C0BA30 /* Storyboads */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ABDCDF6F2145525C00C0BA30 /* Storyboads */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCDF5D21454BA500C0BA30 /* Main.storyboard */,
+				ABDCDF6221454BA600C0BA30 /* LaunchScreen.storyboard */,
+				ABE3D49721456A82008EF4D6 /* Monsters.storyboard */,
+				ABE3D49B2145741A008EF4D6 /* Materials.storyboard */,
+				AB38FF852148755000EABC99 /* Equipments.storyboard */,
+			);
+			path = Storyboads;
+			sourceTree = "<group>";
+		};
+		ABE3D49F21457F7D008EF4D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB04E174214D305B00F0C55C /* Types.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABE3D4A32145858F008EF4D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB04E172214D27B300F0C55C /* MonstersListHeader.swift */,
+				ABE3D4A4214585A1008EF4D6 /* MonstersListCell.swift */,
+				AB907DAD2145956200636B27 /* MonstersDetailMaterials.swift */,
+				AB907DAF2145961F00636B27 /* MonstersDetailMaterialCell.swift */,
+				AB38FF8121486E5200EABC99 /* MaterialsListCell.swift */,
+				AB38FF8A2148792E00EABC99 /* EquipmentsListHeader.swift */,
+				AB38FF8C21487B9B00EABC99 /* EquipmentsListCell.swift */,
+				AB04E178214D53EA00F0C55C /* EquipmentsDetailMaterialCell.swift */,
+				AB04E17A214D544F00F0C55C /* EquipmentsDetailMaterials.swift */,
+				AB04E17E214DD02D00F0C55C /* EquipmentsDetailMaterialTableCell.swift */,
+				AB04E180214DD06700F0C55C /* EquipmentsDetailMaterialTable.swift */,
+				AB025A38216BE9E000B78A61 /* EquipmentsDetailEquipmentCollection.swift */,
+				AB81223F2189F9C4003DAD62 /* EquipmentsDetailParamsTable.swift */,
+				AB5194B521C9C21F00AD6605 /* EquipmentsDetailParamsCollection.swift */,
+				AB5194B721C9C31C00AD6605 /* EquipmentsDetailParamsCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6C4141D826D0FA752946D69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8531BBA601FD17628EE6A260 /* Pods-VikingsHelper.debug.xcconfig */,
+				12D11082B35372D3F5D7BA4D /* Pods-VikingsHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDCDF5521454BA500C0BA30 /* VikingsHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDCDF6821454BA600C0BA30 /* Build configuration list for PBXNativeTarget "VikingsHelper" */;
+			buildPhases = (
+				EC3105B872F8A53DA41D1EEC /* [CP] Check Pods Manifest.lock */,
+				ABDCDF5221454BA500C0BA30 /* Sources */,
+				ABDCDF5321454BA500C0BA30 /* Frameworks */,
+				ABDCDF5421454BA500C0BA30 /* Resources */,
+				CA10203270E179F41AB4BE81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VikingsHelper;
+			productName = VikingsHelper;
+			productReference = ABDCDF5621454BA500C0BA30 /* VikingsHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDCDF4E21454BA500C0BA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Олёшенька";
+				TargetAttributes = {
+					ABDCDF5521454BA500C0BA30 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = ABDCDF5121454BA500C0BA30 /* Build configuration list for PBXProject "VikingsHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDCDF4D21454BA500C0BA30;
+			productRefGroup = ABDCDF5721454BA500C0BA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDCDF5521454BA500C0BA30 /* VikingsHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDCDF5421454BA500C0BA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38FF862148755000EABC99 /* Equipments.storyboard in Resources */,
+				ABE3D4A2214583F6008EF4D6 /* vikings.sqlite3 in Resources */,
+				ABDCDF6421454BA600C0BA30 /* LaunchScreen.storyboard in Resources */,
+				ABE3D49C2145741A008EF4D6 /* Materials.storyboard in Resources */,
+				ABDCDF6121454BA600C0BA30 /* Assets.xcassets in Resources */,
+				ABE3D49821456A82008EF4D6 /* Monsters.storyboard in Resources */,
+				ABDCDF5F21454BA500C0BA30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA10203270E179F41AB4BE81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VikingsHelper/Pods-VikingsHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VikingsHelper/Pods-VikingsHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3105B872F8A53DA41D1EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VikingsHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDCDF5221454BA500C0BA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB38FF88214878B800EABC99 /* EquipmentsListController.swift in Sources */,
+				AB38FF8221486E5200EABC99 /* MaterialsListCell.swift in Sources */,
+				AB04E17F214DD02D00F0C55C /* EquipmentsDetailMaterialTableCell.swift in Sources */,
+				AB04E179214D53EA00F0C55C /* EquipmentsDetailMaterialCell.swift in Sources */,
+				AB8122402189F9C4003DAD62 /* EquipmentsDetailParamsTable.swift in Sources */,
+				ABDCDF5C21454BA500C0BA30 /* ViewController.swift in Sources */,
+				AB907DAE2145956200636B27 /* MonstersDetailMaterials.swift in Sources */,
+				ABDCDF5A21454BA500C0BA30 /* AppDelegate.swift in Sources */,
+				AB907DAC21458FB900636B27 /* MonstersDetailController.swift in Sources */,
+				ABE3D4A5214585A1008EF4D6 /* MonstersListCell.swift in Sources */,
+				AB907DB02145961F00636B27 /* MonstersDetailMaterialCell.swift in Sources */,
+				AB025A39216BE9E000B78A61 /* EquipmentsDetailEquipmentCollection.swift in Sources */,
+				AB38FF8D21487B9B00EABC99 /* EquipmentsListCell.swift in Sources */,
+				AB5194B621C9C21F00AD6605 /* EquipmentsDetailParamsCollection.swift in Sources */,
+				AB04E17B214D544F00F0C55C /* EquipmentsDetailMaterials.swift in Sources */,
+				AB04E173214D27B300F0C55C /* MonstersListHeader.swift in Sources */,
+				AB04E175214D305B00F0C55C /* Types.swift in Sources */,
+				AB04E177214D437900F0C55C /* EquipmentsDetailController.swift in Sources */,
+				AB38FF8B2148792E00EABC99 /* EquipmentsListHeader.swift in Sources */,
+				AB5194B821C9C31C00AD6605 /* EquipmentsDetailParamsCollectionCell.swift in Sources */,
+				AB5194BA21C9CED900AD6605 /* Extensions.swift in Sources */,
+				AB38FF8021486BD300EABC99 /* MaterialsListController.swift in Sources */,
+				AB04E181214DD06700F0C55C /* EquipmentsDetailMaterialTable.swift in Sources */,
+				ABE3D49E21457851008EF4D6 /* MonstersListController.swift in Sources */,
+				AB04E185214EDBA900F0C55C /* MaterialsDetailController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABDCDF5D21454BA500C0BA30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDCDF5E21454BA500C0BA30 /* Base */,
+				AB04E182214EDA5500F0C55C /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDCDF6221454BA600C0BA30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDCDF6321454BA600C0BA30 /* Base */,
+				AB04E183214EDA5500F0C55C /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDCDF6621454BA600C0BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDCDF6721454BA600C0BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDCDF6921454BA600C0BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8531BBA601FD17628EE6A260 /* Pods-VikingsHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVW9M68Z5Z;
+				INFOPLIST_FILE = VikingsHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = digital.olympia.VikingsHelper2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDCDF6A21454BA600C0BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D11082B35372D3F5D7BA4D /* Pods-VikingsHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVW9M68Z5Z;
+				INFOPLIST_FILE = VikingsHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = digital.olympia.VikingsHelper2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDCDF5121454BA500C0BA30 /* Build configuration list for PBXProject "VikingsHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDCDF6621454BA600C0BA30 /* Debug */,
+				ABDCDF6721454BA600C0BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDCDF6821454BA600C0BA30 /* Build configuration list for PBXNativeTarget "VikingsHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDCDF6921454BA600C0BA30 /* Debug */,
+				ABDCDF6A21454BA600C0BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDCDF4E21454BA500C0BA30 /* Project object */;
+}

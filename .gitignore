@@ -1,0 +1,11 @@
+Pods
+Podfile.lock
+Carthage/Checkouts
+Carthage/Build
+build
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcworkspace/xcuserdata
+.idea
+.DS_Store
+Cartfile.resolved
